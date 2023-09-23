@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@astrojs/prefetch':
     specifier: 0.1.1
@@ -8,8 +12,8 @@ dependencies:
     specifier: 2.1.0
     version: 2.1.0
   '@astrojs/sitemap':
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 1.4.0
+    version: 1.4.0
   '@astrojs/tailwind':
     specifier: 3.0.0
     version: 3.0.0(astro@2.0.2)(tailwindcss@3.2.4)
@@ -133,8 +137,8 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap@1.0.0:
-    resolution: {integrity: sha512-42GxuF5FP7RaKXZrwGLBLOX3hPv+Wl7ExJC43O0J5e34ojJkLeKf7QfwN1UwrJlqH0Ywi0Fm4/xGe482G09+wg==}
+  /@astrojs/sitemap@1.4.0:
+    resolution: {integrity: sha512-uTK77kcg7iTiik+u7rTGG6vK4ZWTfYMaVnFndOVQrLzaE5xivmQgIbVLtlN+xRcME5n/m6vYQFJmogFR+elGCw==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.20.2
