@@ -18,11 +18,11 @@ dependencies:
     specifier: 3.0.0
     version: 3.0.0(astro@3.1.2)(tailwindcss@3.2.4)
   '@fontsource/inter':
-    specifier: ^4.5.15
-    version: 4.5.15
+    specifier: ^5.0.0
+    version: 5.0.8
   '@fontsource/jetbrains-mono':
-    specifier: ^4.5.12
-    version: 4.5.12
+    specifier: ^5.0.0
+    version: 5.0.12
   '@tailwindcss/line-clamp':
     specifier: ^0.4.2
     version: 0.4.2(tailwindcss@3.2.4)
@@ -787,12 +787,12 @@ packages:
     dev: false
     optional: true
 
-  /@fontsource/inter@4.5.15:
-    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+  /@fontsource/inter@5.0.8:
+    resolution: {integrity: sha512-28knWH1BfOiRalfLs90U4sge5mpQ8ZH6FS0PTT+IZMKrZ7wNHDHRuKa1kQJg+uHcc6axBppnxll+HXM4c7zo/Q==}
     dev: false
 
-  /@fontsource/jetbrains-mono@4.5.12:
-    resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
+  /@fontsource/jetbrains-mono@5.0.12:
+    resolution: {integrity: sha512-BO2in8zNXWUn1TJsPWgL2qSMYU2SQKoKOmJ9FRrE9gMFtPhEDKgxc0hUCVmeDUcMFrafFEn+KqZ5a85z8rwMzA==}
     dev: false
 
   /@jridgewell/gen-mapping@0.1.1:
