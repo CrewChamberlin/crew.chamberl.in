@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@astrojs/prefetch':
     specifier: 0.1.1
@@ -8,8 +12,8 @@ dependencies:
     specifier: 2.1.0
     version: 2.1.0
   '@astrojs/sitemap':
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 3.0.0
+    version: 3.0.0
   '@astrojs/tailwind':
     specifier: 3.0.0
     version: 3.0.0(astro@2.0.2)(tailwindcss@3.2.4)
@@ -133,11 +137,11 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap@1.0.0:
-    resolution: {integrity: sha512-42GxuF5FP7RaKXZrwGLBLOX3hPv+Wl7ExJC43O0J5e34ojJkLeKf7QfwN1UwrJlqH0Ywi0Fm4/xGe482G09+wg==}
+  /@astrojs/sitemap@3.0.0:
+    resolution: {integrity: sha512-qm7npHuUW4q3OOmulqhJ1g69jEQu0Sdc6P8NbOzqIoosj/L+3v4i8dtKBnp6n1UQ4Sx8H8Vdi3Z/On7i9/ZJhw==}
     dependencies:
       sitemap: 7.1.1
-      zod: 3.20.2
+      zod: 3.21.1
     dev: false
 
   /@astrojs/tailwind@3.0.0(astro@2.0.2)(tailwindcss@3.2.4):
@@ -3375,6 +3379,10 @@ packages:
 
   /zod@3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+    dev: false
+
+  /zod@3.21.1:
+    resolution: {integrity: sha512-+dTu2m6gmCbO9Ahm4ZBDapx2O6ZY9QSPXst2WXjcznPMwf2YNpn3RevLx4KkZp1OPW/ouFcoBtBzFz/LeY69oA==}
     dev: false
 
   /zwitch@2.0.4:
